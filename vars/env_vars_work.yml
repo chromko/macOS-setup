@@ -8,65 +8,83 @@ homebrew_mandatory_packages:
   - mas
 
 homebrew_installed_packages:
+  # Cloud
   - awscli
-  - go
-  - htop
-  - ipcalc
-  - jq
-  - mc
-  - mercurial
   - packer
-  - pyenv
-  - rbenv
-  - screen
-  - shfmt
-  - sysdig
-  - task
-  - taskd
-  - tasksh
   - terraform
+  - docker-machine
+  - kubernetes-helm
+  - kubernetes-cli
+
+  # Languages and frameworks
+  - go
+  - jq
+  - pyenv
+  - pyenv-virtualenv
+  - clojure
+  - chruby
+
+  # Work Environment
+  - mc
+  - screen
+  - sysdig
   - tmux
+  - vim
   - wget
+  - zsh
+  - zsh-completions
   - zsh-syntax-highlighting
+  - htop
+  - openssl
+  - tree
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - coconutbattery
-  - docker
-  - encryptme
-  - gitup
-  - google-chrome
-  - google-cloud-sdk
-  - google-drive-file-stream
-  - iterm2
+  # Other
+  - aerial
   - java
-  - keybase
-  - opera
-  - psequel
-  - sequel-pro
+  - coconutbattery
+
+  # Media and messengers
+  - google-chrome
   - skype
-  - spectacle
-  - tunnelblick
-  - vagrant
-  - virtualbox
-  - visual-studio-code
   - vlc
+  - keybase
+  - google-backup-and-sync
+
+  # Work process
+  - iterm2
+  - visual-studio-code
+  - google-cloud-sdk
+  - yed
+  - authy
+  - vnc-viewer
+
+  # Network
+  - tunnelblick
   - wireshark
-  - zoomus
+  - encryptme
+
+  # Virtualization and Containerization
+  - virtualbox
+  - minikube
+  - docker
+  - parallels-virtualization-sdk
+  - vagrant
 
 mas_installed_apps:
-  - { id: 1014850245, name: "Monit" }
   - { id: 715768417, name: "Microsoft Remote Desktop" }
   - { id: 747648890, name: "Telegram" }
   - { id: 803453959, name: "Slack" }
   - { id: 928871589, name: "Noizio" }
+  - { id: 961632517, name: "Be Focused Pro"}
   - { id: 409201541, name: "Pages" }
   - { id: 409203825, name: "Numbers" }
   - { id: 409183694, name: "Keynote" }
-  - { id: 961632517, name: "Be Focused Pro" }
-  - { id: 989175722, name: "Simple Recorder" }
+  - { id: 425264550, name: "Blackmagic Disk Speed Test" }
+  - { id: 425955336, name: "Skitch" }
   - { id: 425424353, name: "The Unarchiver" }
-  - { id: 1176895641, name: "Spark e-mail" }
+  - { id: 1037126344, name: "Apple Configurator 2" }
 
 pip_apps:
   - trytravis
@@ -88,33 +106,28 @@ dockitems_to_remove:
   - System Preferences
 
 dockitems_to_persist:
-  - name: Safari
-    path: /Applications/Safari.app
-    pos: 1
   - name: Chrome
     path: /Applications/Google Chrome.app
-    pos: 2
+    pos: 1
   - name: Mail
     path: /Applications/Mail.app
+    pos: 2
+  - name: iTunes
+    path: /Applications/iTunes.app
     pos: 3
-  - name: Calendar
-    path: /Applications/Calendar.app
-    pos: 4
-  - name: Notes
-    path: /Applications/Notes.app
-    pos: 5
   - name: iTerm2
     path: /Applications/iTerm.app
-    pos: 6
+    pos: 4
   - name: Visual Studio Code
     path: /Applications/Visual Studio Code.app
-    pos: 7
-  - name: Telegram
-    path: /Applications/Telegram.app
-    pos: 8
-  - name: Slack
-    path: /Applications/Slack.app
-    pos: 9
+    pos: 5
   - name: Skype
     path: /Applications/Skype.app
-    pos: 10
+    pos: 6
+  - name: Telegram
+    path: /Applications/Telegram.app
+    pos: 7
+  - name: Slack
+    path: /Applications/Slack.app
+    pos: 8
+
