@@ -15,10 +15,12 @@ homebrew_installed_packages:
   - docker-machine
   - kubernetes-helm
   - kubernetes-cli
+  - nomad
+  - consul
+  - vault
 
   # Languages and frameworks
   - go
-  - jq
   - pyenv
   - pyenv-virtualenv
   - clojure
@@ -26,6 +28,7 @@ homebrew_installed_packages:
 
   # Work Environment
   - mc
+  - jq
   - screen
   - sysdig
   - tmux
