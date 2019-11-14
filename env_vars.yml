@@ -23,39 +23,158 @@ homebrew_installed_packages:
   - tmux
   - wget
   - zsh-syntax-highlighting
+  - autoconf
+  - fzf
+  - graphviz
+  - kubernetes-helm
+  - libssh2
+  - ncdu
+  - perl
+  - sysdig
+  - wireshark
+  - awscli
+  - grpcurl
+  - libev
+  - libtasn1
+  - nettle
+  - pkg-config
+  - teleport
+  - xz
+  - c-ares
+  - htop
+  - libevent
+  - libtiff
+  - nghttp2
+  - postgresql
+  - telnet
+  - zsh
+  - cfssl
+  - gd
+  - icu4c
+  - libffi
+  - libtool
+  - nmap
+  - pyenv
+  - terraform
+  - zsh-completions
+  - chruby
+  - gdbm
+  - isl
+  - libgcrypt
+  - libunistring
+  - nomad
+  - zsh-syntax-highlighting
+  - clojure
+  - libgpg-error
+  - libyaml
+  - oniguruma
+  - python
+  - tflint
+  - consul
+  - gettext
+  - jemalloc
+  - libidn2
+  - llvm
+  - openssl
+  - readline
+  - tmux
+  - curl
+  - git
+  - jpeg
+  - libmaxminddb
+  - rlwrap
+  - tree
+  - glib
+  - jq
+  - libmpc
+  - luajit
+  - p11-kit
+  - docker-machine
+  - gmp
+  - jsoncpp
+  - mas
+  - p7zip
+  - s-lang
+  - vault
+  - dockutil
+  - gnu-tar
+  - jsonnet
+  - libressl
+  - midnight-commanderpacker
+  - screen
+  - vim
+  - fontconfig
+  - gnutls
+  - k9s
+  - libsmi
+  - mono
+  - pcre
+  - sqlite
+  - webp
+  - freetype
+  - go
+  - kubernetes-cli
+  - libssh
+  - mpfr
+  - pcre2
+  - swig
+  - wget
+
+
+
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chefdk
-  - coconutbattery
-  - docker
-  - gitup
-  - google-chrome
+  - aerial
+  - docker-toolbox
   - google-cloud-sdk
+  - google-chrome
   - iterm2
   - java
+  - keybase
   - psequel
   - sequel-pro
   - skype
-  - spectacle
+  - minikube
+  - tunnelblick
+  - vnc-viewer
+  - authy
+  - encryptme
+  - iterm2
+  - parallels-virtualization-sdk
   - vagrant
+  - yed
+  - bloomrpc
+  - font-hasklig
+  - java
+  - sequel-pro
   - virtualbox
+  - zoomus
+  - google-backup-and-sync
+  - jetbrains-toolbox
+  - skype
   - visual-studio-code
+  - zoomusdbeaver-community
+  - google-chrome
+  - keybase
+  - transmission
   - vlc
-  - wireshark
+
 
 mas_installed_apps:
-  - { id: 1014850245, name: "Monit" }
   - { id: 715768417, name: "Microsoft Remote Desktop" }
   - { id: 747648890, name: "Telegram" }
   - { id: 803453959, name: "Slack" }
-  - { id: 928871589, name: "Noizio" }
   - { id: 409201541, name: "Pages" }
   - { id: 409203825, name: "Numbers" }
   - { id: 409183694, name: "Keynote" }
+  - { id: 425955336, name: "Skitch"}
+  - { id: 425424353, name: "The Unarchiver"}
+
 
 dockitems_to_remove:
   - Maps
+  - Mail
   - Siri
   - Contacts
   - Downloads
@@ -64,9 +183,9 @@ dockitems_to_remove:
   - Photos
   - App Store
   - FaceTime
-  - iBooks
-  - iTunes
   - Launchpad
+  - System Preferences
+
 
 dockitems_to_persist:
   - name: Safari
