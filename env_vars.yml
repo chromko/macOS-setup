@@ -8,6 +8,7 @@ homebrew_mandatory_packages:
   - mas
 
 homebrew_installed_packages:
+  - minikube
   - ansible
   - awscli
   - go
@@ -126,6 +127,8 @@ homebrew_installed_packages:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - datagrip
+  - kubernetic
+  - firefox
   - aerial
   - docker-toolbox
   - google-cloud-sdk
@@ -133,7 +136,6 @@ homebrew_cask_apps:
   - iterm2
   - keybase
   - skype
-  - minikube
   - tunnelblick
   - vnc-viewer
   - authy
