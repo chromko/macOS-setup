@@ -99,7 +99,8 @@ homebrew_installed_packages:
   - gnu-tar
   - jsonnet
   - libressl
-  - midnight-commanderpacker
+  - midnight-commander
+  - packer
   - screen
   - vim
   - fontconfig
