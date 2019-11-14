@@ -132,8 +132,6 @@ homebrew_cask_apps:
   - google-chrome
   - iterm2
   - keybase
-  - psequel
-  - sequel-pro
   - skype
   - minikube
   - tunnelblick
