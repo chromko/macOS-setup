@@ -159,6 +159,7 @@ homebrew_cask_apps:
   - keybase
   - transmission
   - vlc
+  - notion
 
 
 mas_installed_apps:
