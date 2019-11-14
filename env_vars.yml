@@ -64,7 +64,6 @@ homebrew_installed_packages:
   - libunistring
   - nomad
   - zsh-syntax-highlighting
-  - clojure
   - libgpg-error
   - libyaml
   - oniguruma
@@ -130,7 +129,6 @@ homebrew_cask_apps:
   - google-cloud-sdk
   - google-chrome
   - iterm2
-  - java
   - keybase
   - psequel
   - sequel-pro
